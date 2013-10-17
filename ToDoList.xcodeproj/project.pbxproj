@@ -23,6 +23,7 @@
 		9FD702A6180E5E3100BB7B21 /* ToDoListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FD702A4180E5E3100BB7B21 /* ToDoListViewController.xib */; };
 		9FD702A9180E604300BB7B21 /* EditableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD702A8180E604300BB7B21 /* EditableCell.m */; };
 		9FD702AD180E608D00BB7B21 /* EditableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FD702AC180E608D00BB7B21 /* EditableCell.xib */; };
+		9FD702B0180F869900BB7B21 /* ItemList.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD702AF180F869900BB7B21 /* ItemList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		9FD702A7180E604300BB7B21 /* EditableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditableCell.h; sourceTree = "<group>"; };
 		9FD702A8180E604300BB7B21 /* EditableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditableCell.m; sourceTree = "<group>"; };
 		9FD702AC180E608D00BB7B21 /* EditableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EditableCell.xib; path = ../EditableCell.xib; sourceTree = "<group>"; };
+		9FD702AE180F869900BB7B21 /* ItemList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemList.h; sourceTree = "<group>"; };
+		9FD702AF180F869900BB7B21 /* ItemList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemList.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +127,8 @@
 				9FD702A2180E5E3100BB7B21 /* ToDoListViewController.h */,
 				9FD702A3180E5E3100BB7B21 /* ToDoListViewController.m */,
 				9FD702A4180E5E3100BB7B21 /* ToDoListViewController.xib */,
+				9FD702AE180F869900BB7B21 /* ItemList.h */,
+				9FD702AF180F869900BB7B21 /* ItemList.m */,
 				9FD702A7180E604300BB7B21 /* EditableCell.h */,
 				9FD702A8180E604300BB7B21 /* EditableCell.m */,
 				9FD702AC180E608D00BB7B21 /* EditableCell.xib */,
@@ -257,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FD702B0180F869900BB7B21 /* ItemList.m in Sources */,
 				9FD702A5180E5E3100BB7B21 /* ToDoListViewController.m in Sources */,
 				9FD70284180E5DCD00BB7B21 /* AppDelegate.m in Sources */,
 				9FD70280180E5DCD00BB7B21 /* main.m in Sources */,
